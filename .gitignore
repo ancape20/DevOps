@@ -1,0 +1,46 @@
+# Ignorar todos los archivos .log
+*.log
+
+# Pero mantener este archivo de log específico
+!important.log
+
+# Ignorar directorios de configuración de IDE
+.vscode/
+.idea/
+
+# Ignorar directorio de dependencias
+node_modules/
+
+# Ignorar archivos de compilación
+dist/
+
+# Archivos de configuración específicos
+.env
+# Archivos de estado de Terraform
+*.tfstate
+*.tfstate.*
+
+# Archivo de bloqueo
+.terraform.lock.hcl
+
+# Archivos de configuración local .tfvars
+*.tfvars
+*.tfvars.json
+
+# Archivos de plan
+*.tfplan
+*.tfplan.*
+
+# Carpeta .terraform
+.terraform/
+
+# Ignorar archivos de anulación
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Archivos de log
+.terraformrc
+terraform.rc
+
