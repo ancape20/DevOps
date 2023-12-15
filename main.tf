@@ -10,8 +10,3 @@ resource "aws_instance" "Test_server" {
     Name = "ExampleAppServerInstance"
   }
 }   
-
-output "Test" {
-  description = "This is the output test "
-  value = aws_instance.Test_server.public_ip
-}
